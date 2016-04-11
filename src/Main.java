@@ -87,6 +87,11 @@ public class Main {
 			//return resultado;
 			break;
 		
+		case '%':
+			resultado=(resultado*operandos.get(i))/100;
+			i++;
+			//return resultado;
+			break;
 		
 
 		default:
